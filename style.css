@@ -1,0 +1,60 @@
+header h1 {
+    text-align: center;
+    border: 3px solid brown;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .75em;
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    justify-content: space-between;
+    border: 2px solid rgb(42, 106, 165);
+    scrollbar-width: 1;
+}
+
+nav div {
+    border: 3px solid gray;
+    margin: 2px;
+    padding: 1px;
+    transition: border .4s;
+}
+
+nav div:hover {
+    border: 6px solid green;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+}
+
+main div {
+    width: 50%;
+    min-width: 300px;
+    border: 5px solid green;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer button {
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 2em;
+    border-radius: 10px;
+    transition: background-color .3s;
+    margin: 10px;
+}
+
+footer button:hover {
+    background-color: brown;
+    cursor: pointer;
+}
